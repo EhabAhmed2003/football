@@ -1,6 +1,3 @@
-"use client";
-
-import { useState } from "react";
 import MainSettings from "./mainSettings";
 import LanguageSettings from "./languageSettings";
 

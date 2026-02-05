@@ -3,7 +3,7 @@ import { Search } from "lucide-react";
 
 function HeaderSearchInput() {
 	return (
-		<div className="w-full relative">
+		<div className="w-full relative lg:block hidden">
 			<input
 				className="w-full border border-border rounded-full pr-8 h-10"
 				type="search"

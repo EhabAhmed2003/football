@@ -3,6 +3,7 @@ import "./globals.css";
 import ReduxProvider from "../providers/reduxProvider";
 import { ThemeProvider } from "@/providers/themeProvider";
 import Header from "@/components/layout/header/header";
+import useWidth from "@/hooks/useWidth";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -23,7 +24,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en" dir="rtl">
 			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased px-4 py-10 max-w-300 m-auto `}
+				className={`${geistSans.variable} ${geistMono.variable} antialiased px-4 py-10 max-w-300 m-auto overflow-hidden`}
 			>
 				<ReduxProvider>
 					<ThemeProvider>
