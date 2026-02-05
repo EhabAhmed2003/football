@@ -2,7 +2,7 @@ import React from "react";
 import ThemeButton from "../../../themeButton/themeButton";
 import { ChevronLeft } from "lucide-react";
 
-function MainSettings({ onLanguage }) {
+function GeneralSettings({ onLanguage }) {
 	return (
 		<div className="fixed top-0 left-0 w-full rounded-b-lg md:rounded-lg md:w-80 md:absolute z-50 md:top-11 md:left-0  2xl:-translate-x-3/6 2xl:left-6/12 bg-card  min-h-fit flex flex-col gap-3 text-foreground border border-border py-4 px-5">
 			<div className="px-2 py-3">
@@ -34,4 +34,4 @@ function MainSettings({ onLanguage }) {
 	);
 }
 
-export default MainSettings;
+export default GeneralSettings;

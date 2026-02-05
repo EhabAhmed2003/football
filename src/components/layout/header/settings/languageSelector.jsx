@@ -1,8 +1,8 @@
 import React from "react";
-import { LanguagesData } from "../data/languagesData";
+import { languagesOptions } from "../data/languagesOptions";
 import { ChevronRight } from "lucide-react";
 
-function LanguageSettings({ setActiveView, closeAll }) {
+function LanguageSelector({ setActiveView, closeAll }) {
 	return (
 		<div className="fixed top-0 left-0 rounded-b-lg md:rounded-lg md:absolute md:top-11 md:left-0 2xl:-translate-x-3/6 2xl:left-6/12 bg-card w-full md:w-80 min-h-fit  flex flex-col gap-3 text-foreground border border-border py-4 ">
 			<div
@@ -13,7 +13,7 @@ function LanguageSettings({ setActiveView, closeAll }) {
 				<h3 className="text-sm">اللغة</h3>
 			</div>
 			<ul className="flex flex-col px-4">
-				{LanguagesData.map((lang) => {
+				{languagesOptions.map((lang) => {
 					return (
 						<li
 							key={lang.id}
@@ -29,4 +29,4 @@ function LanguageSettings({ setActiveView, closeAll }) {
 	);
 }
 
-export default LanguageSettings;
+export default LanguageSelector;

@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import { Settings } from "lucide-react";
-import SettingsDropdown from "./settingsDropdown";
+import SettingsPanel from "./settingsPanel";
 
-function SettingsButton() {
+function SettingsToggle() {
 	const [isOpen, setIsOpen] = useState(false);
 	const [activeView, setActiveView] = useState("main");
 
@@ -25,7 +25,7 @@ function SettingsButton() {
 				<p className="md:hidden block">الاعدادات</p>
 			</div>
 			{isOpen && (
-				<SettingsDropdown
+				<SettingsPanel
 					activeView={activeView}
 					setActiveView={setActiveView}
 					closeAll={closeAll}
@@ -35,4 +35,4 @@ function SettingsButton() {
 	);
 }
 
-export default SettingsButton;
+export default SettingsToggle;

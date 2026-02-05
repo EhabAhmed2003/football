@@ -6,7 +6,7 @@ import {
 	TvMinimalPlay,
 } from "lucide-react";
 
-export const headerData = [
+export const desktopHeaderData = [
 	{ id: 1, title: "الرئيسية", href: "/" },
 	{ id: 2, title: "المباريات", href: "/" },
 	{ id: 3, title: "الأخبار", href: "/" },
@@ -14,7 +14,7 @@ export const headerData = [
 	{ id: 5, title: "الفرق", href: "/" },
 ];
 
-export const headerDropdownData = [
+export const mobileNavData = [
 	{
 		id: 1,
 		icon: <Volleyball />,

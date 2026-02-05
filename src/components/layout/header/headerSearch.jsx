@@ -1,7 +1,7 @@
 import React from "react";
 import { Search } from "lucide-react";
 
-function HeaderSearchInput() {
+function HeaderSearch() {
 	return (
 		<div className="w-full relative lg:block hidden">
 			<input
@@ -13,4 +13,4 @@ function HeaderSearchInput() {
 	);
 }
 
-export default HeaderSearchInput;
+export default HeaderSearch;

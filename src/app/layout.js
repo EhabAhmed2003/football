@@ -3,7 +3,6 @@ import "./globals.css";
 import ReduxProvider from "../providers/reduxProvider";
 import { ThemeProvider } from "@/providers/themeProvider";
 import Header from "@/components/layout/header/header";
-import useWidth from "@/hooks/useWidth";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
