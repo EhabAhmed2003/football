@@ -21,9 +21,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 	return (
-		<html lang="en" dir="rtl">
+		<html lang="en" dir="ltr">
 			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased px-4 py-10 max-w-300 m-auto overflow-hidden`}
+				className={`${geistSans.variable} ${geistMono.variable} antialiased px-2 md:px-4 py-10 max-w-300 m-auto overflow-x-hidden`}
 			>
 				<ReduxProvider>
 					<ThemeProvider>

@@ -1,48 +1,49 @@
 import {
 	Newspaper,
 	Volleyball,
-	ListOrdered,
 	ArrowRightLeft,
 	TvMinimalPlay,
+	Globe,
 } from "lucide-react";
 
 export const desktopHeaderData = [
-	{ id: 1, title: "الرئيسية", href: "/" },
-	{ id: 2, title: "المباريات", href: "/" },
-	{ id: 3, title: "الأخبار", href: "/" },
-	{ id: 4, title: "الدوريات", href: "/" },
-	{ id: 5, title: "الفرق", href: "/" },
+	{ id: 1, title: "Home", href: "/" },
+	{ id: 2, title: "Matches", href: "/" },
+	{ id: 3, title: "News", href: "/" },
+	{ id: 4, title: "Leagues", href: "/" },
+	{ id: 5, title: "Videos", href: "/" },
+	{ id: 6, title: "Transfer", href: "/" },
 ];
 
 export const mobileNavData = [
 	{
 		id: 1,
 		icon: <Volleyball />,
-		title: "المباريات",
+		title: "Matches",
 		href: "/",
 	},
 	{
 		id: 2,
 		icon: <TvMinimalPlay />,
-		title: "الفيديوهات",
+		title: "Videos",
 		href: "/",
 	},
 	{
 		id: 3,
 		icon: <Newspaper />,
-		title: "الأخبار",
+		title: "News",
 		href: "/",
 	},
 	{
 		id: 4,
-		icon: <ListOrdered />,
-		title: "الترتيب",
+		icon: <Globe />,
+		title: "Leagues",
 		href: "/",
 	},
 	{
 		id: 5,
 		icon: <ArrowRightLeft />,
-		title: "الانتقالات",
+		title: "Transfer",
 		href: "/",
 	},
 ];

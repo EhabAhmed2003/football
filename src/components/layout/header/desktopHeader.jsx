@@ -15,7 +15,7 @@ function DesktopHeader() {
 					height={50}
 				/>
 			</div>
-			<div className="w-8/12 text-sm px-5">
+			<div className="w-8/12 text-sm xl:px-20 px-10">
 				<NavLinks />
 			</div>
 			<div className="flex gap-3 items-center lg:w-3/12 w-1/12">

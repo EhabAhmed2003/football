@@ -4,7 +4,7 @@ import { ChevronRight } from "lucide-react";
 
 function LanguageSelector({ setActiveView, closeAll }) {
 	return (
-		<div className="fixed top-0 left-0 rounded-b-lg md:rounded-lg md:absolute md:top-11 md:left-0 2xl:-translate-x-3/6 2xl:left-6/12 bg-card w-full md:w-80 min-h-fit  flex flex-col gap-3 text-foreground border border-border py-4 ">
+		<div className="fixed top-0 right-0 z-50 rounded-b-lg lg:rounded-lg lg:absolute lg:top-11 lg:right-0 2xl:-translate-x-3/6 2xl:left-6/12 bg-card w-full lg:w-80 min-h-fit  flex flex-col gap-3 text-foreground border border-border py-4 ">
 			<div
 				className="flex gap-1 items-center px-1 w-fit hover:cursor-pointer hover:text-primary-foreground transition"
 				onClick={() => setActiveView("main")}
